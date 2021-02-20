@@ -116,7 +116,7 @@ jobs:
         path: |
           Build/bin/x64/SkyrimTogetherServer
           
-    - name: Upload Skyrim Server Artifacts
+    - name: Upload Fallout Server Artifacts
       uses: actions/upload-artifact@v2.2.0
       with:
         name: fallout-server-artifacts
